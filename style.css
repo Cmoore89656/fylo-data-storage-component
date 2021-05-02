@@ -1,0 +1,26 @@
+:root {
+    --gradient-start: hsl(6, 100%, 80%);
+    --gradient-stop: hsl(335, 100%, 65%);
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+    --raleway: 'Raleway', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: center/contain no-repeat url(./images/bg-mobile.png);
+}
